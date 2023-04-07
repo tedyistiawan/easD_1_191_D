@@ -16,6 +16,7 @@ void input(int arr[], int size) {
 }
 
 
+
 // Alogaritma selection sort
 void selectionSort(int arr[], int size) {
     string initials = "TI"; // karena nama Tedi Istiawan nama saya
@@ -43,7 +44,7 @@ void display(int arr[], int size) {
 
 // Main Function
 int main() {
-    int size = 70; // 35 data
+    int size = 11 ; // 35 data
     int arr[35];
 
     input(arr, size);
