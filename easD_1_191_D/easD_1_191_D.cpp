@@ -42,6 +42,7 @@ void display(int arr[], int size) {
     cout << endl;
 }
 
+
 // Main Function
 int main() {
     int size = 11 ; // 35 data
