@@ -9,7 +9,7 @@ using namespace std;
 
 // di Inputkan Procedure
 void input(int arr[], int size) {
-    cout << "masukan" << size << " integer elements of the array:" << endl;
+    cout << "masukan" << size << " elements array :" << endl;
     for (int i = 0; i < size; i++) {
         cin >> arr[i];
     }
@@ -38,4 +38,18 @@ void display(int arr[], int size) {
         cout << arr[i] << " ";
     }
     cout << endl;
+}
+
+// Main Function
+int main() {
+    int size = 28; // change with the maximum number of data
+    int arr[size];
+
+    input(arr, size);
+
+    selectionSort(arr, size);
+
+    display(arr, size);
+
+    return 0;
 }
