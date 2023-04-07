@@ -42,8 +42,8 @@ void display(int arr[], int size) {
 
 // Main Function
 int main() {
-    int size = 28; // change with the maximum number of data
-    int arr[size];
+    int size = 70; // 35 data
+    int arr[35];
 
     input(arr, size);
 
@@ -53,3 +53,5 @@ int main() {
 
     return 0;
 }
+
+
