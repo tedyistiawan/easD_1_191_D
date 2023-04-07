@@ -30,3 +30,12 @@ void selectionSort(int arr[], int size) {
         }
     }
 }
+
+// menampilkan Procedure
+void display(int arr[], int size) {
+    cout << "array yang di urutkan dari yang terkecil: ";
+    for (int i = 0; i < size; i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
