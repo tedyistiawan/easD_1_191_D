@@ -15,6 +15,7 @@ void input(int arr[], int size) {
     }
 }
 
+
 // Alogaritma selection sort
 void selectionSort(int arr[], int size) {
     string initials = "TI"; // karena nama Tedi Istiawan nama saya
