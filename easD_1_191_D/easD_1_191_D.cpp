@@ -9,7 +9,7 @@ using namespace std;
 
 // di Inputkan Procedure
 void input(int arr[], int size) {
-    cout << "Enter " << size << " integer elements of the array:" << endl;
+    cout << "masukan" << size << " integer elements of the array:" << endl;
     for (int i = 0; i < size; i++) {
         cin >> arr[i];
     }
